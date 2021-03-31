@@ -7,5 +7,7 @@ public class Main {
         System.out.println("Hello");
         System.out.println("Emilia");
         System.out.println(24+26);
+        System.out.print(12/3);
+
     }
 }
