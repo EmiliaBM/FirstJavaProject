@@ -3,6 +3,7 @@ package lab2.AnimalRescue;
 public class Dog {
 
     String name = "Dylan";
+    String breed = "Bichon maltese";
     int age = 3;
     int health = 8;
     int hungry_level = 6;
@@ -11,6 +12,7 @@ public class Dog {
     String favourite_activity = "being pet";
 
     public void eat(){
+
         System.out.println("eating dog food Belo");
     }
     public void bark(){
@@ -18,6 +20,7 @@ public class Dog {
     }
 
     public void play(){
+
         System.out.println("jumping");
     }
 }
