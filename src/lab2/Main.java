@@ -16,12 +16,12 @@ public class Main {
 
         }
 
-    private static int divide ( int first, int second) {
+    public static int divide ( int first, int second) {
         int result = first / second;
         return result;
 
     }
-    private static float divide ( float first, float second) {
+    public static float divide ( float first, float second) {
         float result = first / second;
         return result;
 
