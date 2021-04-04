@@ -42,8 +42,5 @@ public class AppMain {
         System.out.println("and they start");
         System.out.println("walking in the park");
 
-
-
-
     }
 }
