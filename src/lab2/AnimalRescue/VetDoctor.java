@@ -10,6 +10,6 @@ public class VetDoctor {
     }
 
     public void laughs(){
-        System.out.println(" Laughs at the dog's jumps");
+        System.out.println("laughs at the dog");
     }
 }

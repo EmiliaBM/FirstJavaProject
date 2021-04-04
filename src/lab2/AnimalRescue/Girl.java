@@ -12,7 +12,7 @@ public class Girl {
         System.out.println("petting the dog");
     }
     public void brushes(){
-        System.out.println("brushes the dog");
+        System.out.println("brushes");
     }
     public void feeds(){
         System.out.println("feeds the dog");

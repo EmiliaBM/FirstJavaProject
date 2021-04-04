@@ -21,6 +21,6 @@ public class Dog {
 
     public void play(){
 
-        System.out.println("jumping");
+        System.out.println("jumps");
     }
 }
