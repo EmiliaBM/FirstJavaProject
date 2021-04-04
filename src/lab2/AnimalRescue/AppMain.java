@@ -35,12 +35,14 @@ public class AppMain {
         dylan.play();
         System.out.println();
 
-        Recreation walkingInThePark = new Recreation();
+        Recreation walking = new Recreation();
         System.out.println("Ela");
         ela.brushes();
         System.out.println("Dylan");
         System.out.println("and they start");
         System.out.println("walking in the park");
+        System.out.println();
+
 
     }
 }

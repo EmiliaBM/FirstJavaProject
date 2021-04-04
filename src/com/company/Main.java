@@ -18,5 +18,8 @@ public class Main {
         System.out.println(20 + (-3*5 / 8f));
         System.out.println( "Rezultatul operatiunii 5 + 15 / 3 * 2 - 8 % 3 este:");
         System.out.println(5 + (15 / 3 * 2) - (8 % 3));
-    }
+
+
+        }
+
 }
