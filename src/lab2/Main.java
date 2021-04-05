@@ -38,7 +38,7 @@ public class Main {
 
     public static int multiplication (int first,int second){
         int result = first * second;
-        return result;
+        return first * second;
 
     }
 
