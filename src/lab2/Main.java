@@ -10,6 +10,9 @@ public class Main {
         int iiiiii = substract(12,5);
         int vi = multiplication(2,3,4);
         float vii = divide(12,5f);
+        double viii = rest (15,6);
+        double ix = Celsius( 35);
+        double x = Distance (20);
         System.out.println(i);
         System.out.println();
         System.out.println(ii);
@@ -30,6 +33,11 @@ public class Main {
         System.out.println();
         PrintJavaRobo();
         System.out.println();
+        System.out.println(viii);
+        System.out.println();
+        System.out.println(ix);
+        System.out.println();
+        System.out.println(x);
 
 
 
@@ -37,8 +45,8 @@ public class Main {
     }
 
     public static int multiplication (int first,int second){
-        int result = first * second;
-        return first * second;
+        int multiplication = first * second;
+        return multiplication;
 
     }
 
@@ -90,5 +98,20 @@ public class Main {
         System.out.println(" | '_' | ");
         System.out.println(" +_____+ ");
         
-    }   
+    }
+    public static double rest (double first, double second){
+        double rest = first % second;
+        return rest;
+    }
+    public static double Celsius (double f){
+        double c;
+        c = (5/9f * (f-32f));
+        return c;
+    }
+    public static double Distance (double inch){
+        double m;
+        m = inch * 0.0254;
+        return m;
+    }
+
 }
