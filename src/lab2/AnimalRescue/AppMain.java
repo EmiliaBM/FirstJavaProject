@@ -41,7 +41,7 @@ public class AppMain {
         System.out.println("Dylan");
         System.out.println("and they start");
         System.out.println(walking.activity);
-
+        System.out.println();
 
     }
 }
