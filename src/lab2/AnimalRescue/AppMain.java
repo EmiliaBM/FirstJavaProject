@@ -40,7 +40,7 @@ public class AppMain {
         ela.brushes();
         System.out.println("Dylan");
         System.out.println("and they start");
-        System.out.println("walking");
+        System.out.println(walking.activity);
 
 
     }
