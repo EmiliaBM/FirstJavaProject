@@ -31,13 +31,6 @@ public class Main {
 
         System.out.println();
 
-        // Creati o metoda care primeste un numar ca si parametru si sa afiseze ce numar a primit.
-        // Folosind constructia Switch-Case, verificati ce numar s-a primit si afisati textul
-        // "The number is:  x !" unde x trebuie sa reprezinte numarul apasat. Pentru exemplul
-        // de fata sa nu se foloseasca concatenarea stringului "The number is:" cu numarul de
-        // la parametru, ci sa se scrie intreg textul cu tot cu numar pentru fiecare caz din Switch-Case.
-        // Apelati metoda in main() pentru a verifica daca functioneaza.
-
 
         int first = 17;
         System.out.println(op.TrueOrFalse(first));
@@ -48,6 +41,13 @@ public class Main {
         System.out.println(op.isEligibleToVote(varsta));
 
         System.out.println();
+
+
+        int one = 12;
+        int two = 13;
+        int three = 14;
+
+        System.out.println(op.WhichOneIsBigger(one, two, three));
 
 
 

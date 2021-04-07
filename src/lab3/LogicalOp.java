@@ -99,7 +99,8 @@ public class LogicalOp {
         else
             return("");
 
-    }
+            }
+
 
     // Creati o metoda care sa se numeasca isNumberEven. Metoda trebuie sa primeasca ca parametru un
     // numar, si sa returneze adevarat sau fals. Daca numarul e par sa returneze true iar daca e impar
@@ -129,7 +130,23 @@ public class LogicalOp {
 
     }
 
+    //Creati o metoda care sa primeasca 3 numere ca si parametrii si sa returneze cel mai mare numar.
+    // Apelati metoda in main() pentru a verifica daca functioneaza.
 
+    public int WhichOneIsBigger (int one, int two, int three){
+
+        if(one>two && one>three){
+            return one;
+        }
+        else if(two>one && two>three){
+            return two;
+        }
+        else if(three>one && three>two){
+            return three;
+        }
+        else
+            return 0;
+    }
 
 
 }
