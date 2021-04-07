@@ -40,8 +40,6 @@ public class Main {
         System.out.println(x);
 
 
-
-
     }
 
     public static int multiplication (int first,int second){
