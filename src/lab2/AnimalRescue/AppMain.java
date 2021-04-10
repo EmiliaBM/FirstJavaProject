@@ -5,20 +5,16 @@ public class AppMain {
     public static void main(String[] args) {
         Dog dylan = new Dog();
         dylan.setName("Dylan");
-        dylan.setBreed("maltese");
         dylan.setAge(3);
         dylan.setHealth(8);
         dylan.setHungry_level(7);
-        dylan.setHapiness(9);
-        dylan.setName_of_food("belo");
-        dylan.setFavourite_activity("walking");
+
        System.out.println("Pe cainele meu il cheama " + dylan.getName() +
-               " si este " + dylan.getBreed() + " si are varsta de " + dylan.getAge() + " ani");
+               " si are varsta de " + dylan.getAge() + " ani");
 
        Girl ela = new Girl();
-       ela.setHerName("Ella");
+       ela.setName("Ella");
        ela.setEyes("blue");
-       ela.setMoney(100f);
 
        DogFood belo = new DogFood();
        belo.setNameIt("belo");
@@ -30,7 +26,6 @@ public class AppMain {
        walking.setActivity("walking");
 
        VetDoctor mario = new VetDoctor();
-       mario.setSpecialist("Head of the clinic");
        mario.setName("Mario");
     }
 }
