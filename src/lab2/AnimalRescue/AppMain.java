@@ -4,44 +4,38 @@ public class AppMain {
 
     public static void main(String[] args) {
         Dog dylan = new Dog();
-        System.out.println();
-        System.out.println(dylan.breed);
-        System.out.println("Age");
-        System.out.println(dylan.age);
-        System.out.println("Favourite activity is:");
-        System.out.println(dylan.favourite_activity);
-        System.out.println("and");
-        dylan.eat();
-        System.out.println("After that happily barks:");
-        dylan.bark();
-        System.out.println();
+        dylan.setName("Dylan");
+        dylan.setBreed("maltese");
+        dylan.setAge(3);
+        dylan.setHealth(8);
+        dylan.setHungry_level(7);
+        dylan.setHapiness(9);
+        dylan.setName_of_food("belo");
+        dylan.setFavourite_activity("walking");
+       System.out.println("Pe cainele meu il cheama " + dylan.getName() +
+               " si este " + dylan.getBreed() + " si are varsta de " + dylan.getAge() + " ani");
 
-        Girl ela = new Girl();
-        System.out.println("Ela, the adopter");
-        System.out.println("Who is age");
-        System.out.println(ela.age);
-        System.out.println("Has this amount of money");
-        System.out.println(ela.money);
-        System.out.println("to buy food for");
-        System.out.println(dylan.name);
-        System.out.println("And take it to the Vet");
-        System.out.println();
+       Girl ela = new Girl();
+       ela.setHerName("Ella");
+       ela.setEyes("blue");
+       ela.setMoney(100f);
 
-        VetDoctor mario = new VetDoctor();
-        System.out.println(mario.specialist);
-        mario.treats();
-        mario.laughs();
-        System.out.println("When Dylan");
-        dylan.play();
-        System.out.println();
+       DogFood belo = new DogFood();
+       belo.setNameIt("belo");
+       belo.setSupplyNumberOfBags(3);
+       belo.setPrice(12);
+       belo.setQuantityInKg(10);
 
-        Recreation walking = new Recreation();
-        System.out.println("Ela");
-        ela.brushes();
-        System.out.println("Dylan");
-        System.out.println("and they start");
-        System.out.println(walking.activity);
-        System.out.println();
+       Recreation walking = new Recreation();
+       walking.setActivity("walking");
 
+       VetDoctor mario = new VetDoctor();
+       mario.setSpecialist("Head of the clinic");
+       mario.setName("Mario");
     }
 }
+
+
+
+
+
