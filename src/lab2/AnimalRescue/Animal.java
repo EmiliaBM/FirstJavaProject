@@ -78,10 +78,11 @@ public class Animal {
         System.out.println("Speaking");
     }
     public void eat(){
+
         System.out.println("eating");
     }
     public void sleep(){
-        System.out.println("eating");
+        System.out.println("snoor");
     }
     public void poop(){
         System.out.println("pooping");

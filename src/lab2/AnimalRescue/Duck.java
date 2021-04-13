@@ -6,4 +6,8 @@ public class Duck extends Animal{
 
         System.out.println("flying");
     }
+    public void eat() {
+
+        System.out.println("yupii iei");
+    }
 }

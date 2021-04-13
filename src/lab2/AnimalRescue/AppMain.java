@@ -27,6 +27,20 @@ public class AppMain {
 
        VetDoctor mario = new VetDoctor();
        mario.setName("Mario");
+
+       dylan.speak();
+
+       Horse Runny = new Horse();
+       Runny.speak();
+
+       ArabianHorse Thunder = new ArabianHorse();
+       Thunder.race();
+
+       Cat Tom = new Cat();
+       Tom.eat();
+
+       Duck Donald = new Duck();
+       Donald.eat();
     }
 }
 

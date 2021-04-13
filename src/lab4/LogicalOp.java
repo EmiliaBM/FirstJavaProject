@@ -107,8 +107,9 @@ public class LogicalOp {
 
             count++;
         }
-        return = sum / count;
+        return sum / count;
     }
+
 
 }
 
