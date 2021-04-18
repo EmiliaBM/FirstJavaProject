@@ -49,8 +49,6 @@ public class Main {
 
         System.out.println(op.WhichOneIsBigger(one, two, three));
 
-
-
     }
 }
 

@@ -148,5 +148,4 @@ public class LogicalOp {
             return 0;
     }
 
-
 }

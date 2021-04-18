@@ -10,11 +10,19 @@ public class Calculator {
 
     }
 
+    public static int multiplication (int first,int second, int third, int forth){
+        int multiplication = first * second * third * forth;
+        return multiplication;
+
+    }
+
     public static int divided ( int first, int second) {
         int result = first / second;
         return result;
 
     }
+
+
     public static float divides ( float first, float second) {
         float result = first / second;
         return result;
@@ -23,6 +31,10 @@ public class Calculator {
 
     public static int sum (int first, int second) {
         int result = first + second;
+        return result;
+    }
+    public static int sum (int first, int second, int third) {
+        int result = first + second + third;
         return result;
     }
 
