@@ -47,16 +47,6 @@ public class LogicalOp {
         l.add(0 , Text);
         System.out.println(l);
     }
-    //7.Scrieti o metoda Java care sa primeasca parametru o Lista, si sa afiseze ce valori are lista,
-    // si ce pe ce pozitie. (Ex: “Pe pozitia 1 valoare este 4”).
 
-    public void theElement(List l){
-        //for (int i = 0; i < l.size(); i++){
-        System.out.println("Pe pozitia 0 valoarea este: "+l.get(0));
-        System.out.println("Pe pozitia 1 valoarea este: "+l.get(1));
-        System.out.println("Pe pozitia 2 valoarea este: "+l.get(2));
-        System.out.println("Pe pozitia 3 valoarea este: "+l.get(3));
-        System.out.println("Pe pozitia 4 valoarea este: "+l.get(4));
-    }
 
 }
