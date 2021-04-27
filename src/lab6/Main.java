@@ -30,13 +30,13 @@ public class Main {
 
 
         //1.
-        op.getMyList(7);
+        op.getMyList(myStrList);
         //2
         op.addToTheList(myIntList,17);
         //3
         op.addToMyList(myIntList, 17);
         //5
-        op.addTo(myStrList, 7, "dog");
+        op.addTo(myStrList, 6, "dog");
         //6
         op.addToFirstPoz(myStrList, "dog");
 
