@@ -8,6 +8,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        LogicalOp op = new LogicalOp();
+
         List<String> myStrList = new ArrayList<>();
 
         myStrList.add("caine");
@@ -28,15 +30,15 @@ public class Main {
 
 
         //1.
-        //op.getMyList(myStrList);
+        op.getMyList(7);
         //2
-        //op.addToTheList(myIntList,17);
+        op.addToTheList(myIntList,17);
         //3
-        //op.addToMyList(myIntList, 17);
+        op.addToMyList(myIntList, 17);
         //5
-        //op.addTo(myStrList, 7, "dog");
+        op.addTo(myStrList, 7, "dog");
         //6
-        //op.addToFirstPoz(myStrList, "dog");
+        op.addToFirstPoz(myStrList, "dog");
 
 
     }
