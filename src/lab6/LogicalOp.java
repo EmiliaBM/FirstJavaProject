@@ -8,9 +8,8 @@ public class LogicalOp {
     //1.Scrieti o metoda Java, care sa primeasca parametru o Lista, si sa afiseze, pe rand,
     // toate valorile din lista, fiecare pe rand nou.
 
-    public void getMyList(List<String> l) {
-        int i = 0;
-        for (String element : l) {
+    public void getMyList(List<String> list) {
+        for (String element : list) {
             System.out.println(element);
         }
     }
@@ -32,17 +31,7 @@ public class LogicalOp {
         for (Integer element : list)
             System.out.println(element);
     }
-    //Scrieti o metoda Java, care sa primeasca parametru o Lista, si sa afiseze, pe rand,
-    // toate valorile din lista, dar invers(de la capat la inceput).
 
-    public void invert (List list){
-        List invList = new ArrayList();
-        for (int i = list.size() -1; i >= 0; i--) {
-            invList.add(list.get(i));
-        }
-        System.out.println(invList);
-
-    }
     //5.Scrieti o metoda Java, care sa primeasca trei parametrii: unul de tip Lista de String-uri,
     // unul de tip intreg, si unul de tip String. Metoda sa adauge parametrul de tip String in lista primita,
     // iar parametrul de tip intreg reprezinta pozitia la care sa fie pus acel String.
