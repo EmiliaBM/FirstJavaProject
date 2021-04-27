@@ -33,14 +33,11 @@ public class Main {
         //op.addToTheList(myIntList,17);
         //3
         //op.addToMyList(myIntList, 17);
-        //4
-        //op.invert(myStrList);
         //5
         //op.addTo(myStrList, 7, "dog");
         //6
         //op.addToFirstPoz(myStrList, "dog");
-        //6
-        //op.PozElement(myStrList);
+
 
     }
 

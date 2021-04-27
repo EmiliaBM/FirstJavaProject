@@ -27,7 +27,7 @@ public class LogicalOp {
     // toate valorile din lista, fiecare pe rand nou, pornind de la numarul intreg primit ca si parametru.
 
     public void addToMyList(List<Integer> list , int numb){
-        list.add(numb);
+        list.add(0,numb);
         for (Integer element : list)
             System.out.println(element);
     }
@@ -47,6 +47,5 @@ public class LogicalOp {
         l.add(0 , Text);
         System.out.println(l);
     }
-
 
 }
