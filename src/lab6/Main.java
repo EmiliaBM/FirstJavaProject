@@ -30,15 +30,17 @@ public class Main {
 
 
         //1.
-        op.getMyList(myStrList);
+        //op.getMyList(myStrList);
         //2
-        op.addToTheList(myIntList,17);
+        //op.addToTheList(myIntList,17);
         //3
-        op.addToMyList(myIntList, 17);
+       // op.addToMyList(myIntList, 17);
+        //4
+        op.reverse(myIntList);
         //5
-        op.addTo(myStrList, 6, "dog");
+        //op.addTo(myStrList, 6, "dog");
         //6
-        op.addToFirstPoz(myStrList, "dog");
+        //op.addToFirstPoz(myStrList, "dog");
 
 
     }

@@ -1,6 +1,6 @@
 package lab2.AnimalRescue;
 
-public class People {
+public abstract class People {
 
     private String name;
     private String eyes;
@@ -38,6 +38,7 @@ public class People {
     public void setAge(int age) {
         this.age = age;
     }
+    public abstract void talk();
 
 
 }

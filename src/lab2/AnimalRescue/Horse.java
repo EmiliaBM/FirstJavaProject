@@ -1,6 +1,6 @@
 package lab2.AnimalRescue;
 
-public class Horse extends Animal{
+public abstract class Horse extends Animal{
 
 
     public void speak(){

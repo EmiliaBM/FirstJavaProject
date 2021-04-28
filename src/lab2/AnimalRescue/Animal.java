@@ -1,6 +1,6 @@
 package lab2.AnimalRescue;
 
-public class Animal {
+public abstract class Animal {
 
     private String name;
     private int age;
@@ -74,16 +74,12 @@ public class Animal {
     public void setWeight(int weight) {
         this.weight = weight;
     }
-    public void speak(){
-        System.out.println("Speaking");
-    }
-    public void eat(){
+    public abstract void speak();
 
-        System.out.println("eating");
-    }
-    public void sleep(){
-        System.out.println("snoor");
-    }
+    public abstract void eat();
+
+    public abstract void sleep();
+
     public void poop(){
         System.out.println("pooping");
     }

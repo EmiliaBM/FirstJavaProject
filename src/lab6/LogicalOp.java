@@ -31,6 +31,19 @@ public class LogicalOp {
         for (Integer element : list)
             System.out.println(element);
     }
+    //Scrieti o metoda Java, care sa primeasca parametru o Lista, si sa afiseze,
+    // pe rand, toate valorile din lista, dar invers(de la capat la inceput).
+
+    public void reverse(List<Integer> list ){
+
+        for (int i = list.size() -1; i >= 0; i--) {
+            list.add(list.get(i));
+        }
+        System.out.println(list);
+    }
+
+
+
 
     //5.Scrieti o metoda Java, care sa primeasca trei parametrii: unul de tip Lista de String-uri,
     // unul de tip intreg, si unul de tip String. Metoda sa adauge parametrul de tip String in lista primita,
